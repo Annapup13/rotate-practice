@@ -16,10 +16,25 @@ div#myDiv {
   padding: 20px;
   color: rgb(213, 14, 14);
 }
-{
-    transform: scaleX(2);
-    transform: scaleY(3);
-
+div#skew{
+    transform: skewX(5);
+    transform: skewY(7);
+}
+div#scale {
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(0, 255, 115);
+  border: 1px solid black;
+  transform: scaleX(2);
+}
+div#skew {
+  margin: 150px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(0, 255, 115);
+  border: 1px solid black;
+  transform: skewX(20deg);
 }
 </style>
 </head>
@@ -28,8 +43,17 @@ div#myDiv {
 <div id="myDiv" style="font-size:50px ; ">
 FAIL
 </div>
-<div>
 
+<div>
+you failed 
+</div>
+
+<div id="scale">
+hii
+</div>
+
+<div id="skew">
+I tried. 
 </div>
 
 
